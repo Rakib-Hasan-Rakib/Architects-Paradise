@@ -24,19 +24,17 @@ html {
     margin: 0 auto;
 }
 
-/* ___ common classes ___ */
+                        /* ___ common classes ___ */
 h1 {
     font-size: 3rem;
     font-weight: 700;
     text-transform: capitalize;
 }
-
 h2 {
     font-size: 2rem;
     color: var(--dark);
     font-weight: 700;
 }
-
 h3 {
     font-size: 1.8rem;
     font-weight: 600;
@@ -44,19 +42,16 @@ h3 {
     text-transform: capitalize;
     color: var(--dark);
 }
-
 .section-desc {
     font-size: 1.5rem;
     margin: 2rem auto;
     line-height: 1.5rem;
 }
-
 .small-desc {
     font-size: 1.4rem;
     margin: 1rem auto;
     line-height: 2rem;
 }
-
 .btn-primary {
     background-color: var(--orange);
     border: none;
@@ -67,6 +62,9 @@ h3 {
     padding: 1rem 1.5rem;
     cursor: pointer;
 }
+img{
+    width: 100%;
+}
 #features,
 #more-features,
 #facts, 
@@ -74,24 +72,20 @@ h3 {
 #sponsors{
     margin: 10rem auto;
 }
-
 .light-gray {
     color: var(--light-gray);
 }
-
 .dark {
     color: var(--dark);
 }
-
 .orange {
     color: var(--orange);
 }
 
-/* ___ navbar styling ___ */
+                                /* ___ navbar styling ___ */
 header {
     margin-bottom: 10rem;
 }
-
 header nav {
     display: flex;
     justify-content: space-between;
@@ -99,7 +93,6 @@ header nav {
     padding: .5rem;
     margin-top: 3rem;
 }
-
 nav ul {
     display: flex;
     gap: 3rem;
@@ -107,7 +100,6 @@ nav ul {
     font-size: 1.5rem;
     font-weight: 500;
 }
-
 nav ul a {
     text-decoration: none;
     color: var(--gray);
@@ -118,26 +110,18 @@ nav ul a {
     text-align: center;
     margin: 10rem auto;
 }
-
 .banner-image {
-    margin: 0 auto;
-}
-
-img {
-    width: 100%;
     margin: 0 auto;
 }
 
                             /* ___ features styling */
 #features {
     padding: .5rem;
-    /* background-color: orange; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 5rem;
 }
-
 #features .features-image {
     width: 50%;
     display: grid;
@@ -145,12 +129,11 @@ img {
     column-gap: .5rem;
     row-gap: .2rem;
 }
-
 .features-text {
     width: 50%;
 }
 
-/* ___ more features styling ___ */
+                           /* ___ more features styling ___ */
 #more-features {
     display: flex;
     justify-content: space-between;
@@ -158,16 +141,13 @@ img {
     gap: 2rem;
     position: relative;
 }
-
 .more-features-text {
     width: 50%;
 }
-
 .more-features-head h1 {
     padding-left: 5px;
     border-left: .4rem solid var(--orange);
 }
-
 .more-features-body>div {
     padding-left: 1rem;
     /* background-color: #faebd7; */
@@ -175,20 +155,16 @@ img {
     margin: 2rem;
     box-shadow: 2px 2px 7px .1px var(--light-gray);
 }
-
 .more-features-image {
     width: 50%;
 }
-
 .more-features-image img {
     height: 100%;
     width: 100%;
 }
-
 .large-btn {
     font-size: 2.5rem;
 }
-
 .btn-exceptional {
     padding: 1rem 2rem;
     width: 15rem;
@@ -197,22 +173,19 @@ img {
     left: 50%;
 }
 
-/* ___ facts styling ___ */
+                                 /* ___ facts styling ___ */
 .facts-box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5rem;
 }
-
 .facts-box img {
     width: 20%;
     margin-bottom: 1rem;
 }
-
 .facts-desc {
     margin: 1rem auto;
 }
-
 .facts-box>div {
     border: 1px solid var(--red);
     padding: 1.5rem;
@@ -221,13 +194,11 @@ img {
     position: relative;
     overflow: hidden;
     z-index: 5;
-    transition: box-shadow 2s ease-in;
+    transition: box-shadow 1s ease-in;
 }
-
 .facts-box>div:hover {
     box-shadow: .1px .1px 5px 1px var(--red);
 }
-
 .anim {
     height: .1rem;
     width: .1rem;
@@ -239,80 +210,66 @@ img {
     transition: transform 1s ease-in-out, border 2s ease-in;
     z-index: -5;
 }
-
 .facts-box>div:hover .anim {
     transform: scale(300);
 }
 
-/* ___ choice styling ___ */
-
-
+                                /* ___ choice styling ___ */
 #choice>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
-    /* border: 1px solid red; */
     height: 25rem;
     overflow: hidden;
     margin-bottom: 5rem;
     padding: .5rem;
     background-color: var(--gold-white);
 }
-
 #choice>div:nth-child(2n) {
     text-align: right;
 }
-
 #choice h1 {
     margin-bottom: 7rem;
     text-align: center;
 }
-
 .projects {
     flex-direction: row-reverse;
 }
-
 .choice-image {
     width: 50%;
 }
-
 .choice-text {
     width: 50%;
 }
-
 .choice-image img {
-    width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-/* ___ sponsors styling ___ */
+                                  /* ___ sponsors styling ___ */
 #sponsors {
     text-align: center;
 }
-
 .sponsors-text {
     margin-bottom: 5rem;
     text-align: center;
     width: 70%;
     margin: 5rem auto;
 }
-
 .sponsors-image {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-content: center;
     gap: 3rem;
 }
-
 .sponsors-image img {
     width: 70%;
     filter: grayscale();
 }
 
-/* ___ footer styling ___ */
+                                    /* ___ footer styling ___ */
 footer {
     background-color: var(--gold-white);
     height: 4rem;
@@ -359,6 +316,9 @@ footer {
                             /* ___header responsive___ */
     header {
         margin-bottom: 1rem;
+    }
+    header nav {
+        margin-top: 1rem;
     }
     nav ul {
         display: block;
@@ -467,7 +427,7 @@ footer {
         margin: 0 auto;
     }
 
-                            /* ___ more features styling ___ */
+                            /* ___ more features responsive ___ */
 
     #more-features {
         display: block;
@@ -503,7 +463,7 @@ footer {
         gap: 1.5rem;
     }
 
-                            /* ___ choice styling ___ */
+                            /* ___ choice responsive ___ */
 
     #choice>div {
         flex-direction: column;
@@ -532,8 +492,11 @@ footer {
 
 @media screen and (min-width: 1200px) {
     html{
-        /* width: 100%; */
         max-width: 90%;
         margin: 0 auto;
+        font-size: 100%;
+    }
+    .facts-box>div:hover .anim {
+        transform: scale(400);
     }
 }
